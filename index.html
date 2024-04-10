@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Cheat Sheet</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="hd">
+        <nav>
+            <a href="https://dirtypawsbr.github.io/HTML-CheatSheet/" target="blank">HTML</a>
+            <a href="https://dirtypawsbr.github.io/CSS-CheatSheet/" target="blank">CSS</a>
+            <a href="" target="blank">JavaScript</a>
+            <h4>Cheat Sheet</h4>
+
+        </nav>
+        
+        <section class="javascript">
+            <div class="javascriptimage">
+            </div>
+            <div class="javascripttext1">
+                <h2>Javascript</h2>
+
+                <p>
+                    JavaScript is primarily used to make websites and applications interactive.
+                     Alongside HTML and CSS, which are structure and style languages, respectively, it is fundamental
+                     to building a user-friendly,and visually appealing product. But JavaScript takes this a step further, 
+                     making it lively and functional. It applies to various elements we so often take for granted, 
+                     from drop-down menus to short animation clips to forms.
+                </p>
+            </div>
+            <div class="javascripttext2">
+                <h2>Functions ()</h2>
+                <p>
+                One of the main tricks of Javascript are functions. A function is a block of code designed to perform a particular task. It is executed when 
+                "something" invokes it (calls it).A JavaScript function is defined with the function keyword,
+                 followed by a name, followed by parentheses (). Function names can contain letters, digits, underscores,
+                  and dollar signs (same rules as variables).parentheses may include parameter names separated by commas:
+                (parameter1, parameter2) he code to be executed, by the function, is placed inside curly brackets: {}.
+                </p>
+            </div>
+            <div class="javascriptimage2">
+            </div>
+
+           </section>
+
+           <section class="javascripttricks">
+            <div class="tricks1"> 
+                <h2> Variables</h2>
+                <p>JavaScript Variables can be declared in 4 ways:  
+                    var, let, const and automatically.
+                    Here's an example: </p>
+                <ul type="none">
+                <li> const x = 5;</li>
+                <li>  let y = 6; </li>
+                <li>  var z = x + z;</li>
+                </ul>
+                
+                 <h3>When to use each one?</h3>
+                 <dl>
+                    <dd>Always declare variables</dd>
+                    <dd>Always use const if the value should not be changed</dd>
+                    <dd>Always use const if the type should not be changed (Arrays and Objects)></dd>
+                    <dd>Only use let if you can't use const</dd>
+                    <dd>Only use var if you MUST support old browsers</dd>
+                    </dl>
+            </div>
+            <div class="tricks2">
+                <h2>Events</h2>
+                <p>
+                   HTML events are "things" that happen to HTML elements.
+                   When JavaScript is used in HTML pages, JavaScript can "react" on these events.
+                   An HTML event can be something the browser does, or something a user does.
+                    Here are some examples of HTML events:</p>
+                <ul type="none">
+                        <li> An HTML web page has finished loading</li>
+                        <li> An HTML input field was changed</li>
+                        <li> An HTML button was clicked</li>
+                </ul>
+                     <h2>Common JS Events</h2>
+                     <ul type="none">
+                        <li>onchange - An HTML element has been changed</li>
+                        <li>onclick - The user clicks an HTML element</li>
+                        <li>onmouseover - The user moves the mouse over an HTML element</li>
+                        <li>onmouseout - 	The user moves the mouse away from an HTML element</li>
+                        <li>onkeydown - The user pushes a keyboard key</li>
+                     </ul>
+            </div>
+            <div class="tricks3">
+                <h2>Check how powerful JS can be</h2>
+                <p>Click the button to display the date.</p>
+               <button onclick="displayDate()">The time is?</button>
+               <p id="date"></p>
+                
+               <p id="change" onclick="jsChange()">Click me to change content.</p>
+
+               <p id="delete">Click the button to delete me.</p>
+
+                <button onclick="deleteMe()">Delete Me</button>
+
+                <p>JavaScript can change the HTML element:</p>
+
+                <button type="button" onclick="myPower()">Click Me!</button>
+
+                <p id="power">The power of Javascript.</p>
+            </div>
+           </section>
+           <section class="containerjs2">
+            <div class="ifelse">
+                <h2>If-Else Statement</h2>
+             <p>The if-else statement is a conditional statement that allows you to execute different 
+                blocks of code based on a condition.</p>
+                <p>It's used to make decisions in your code by specifying what should happen when a particular
+                condition is true. And what should happen when it's false.</p>
+            </div>
+            <div class="ifelse2">
+             <p> Here's an example to illustrate how if-else works:</p>
+            </div>
+
+            <div class="switch">
+                <h2>Switch-Case Statement</h2>
+                <p>The switch statement is used to perform different actions based on different conditions.</p>
+                <p>This is how it works:</p>
+                <ul type="none">
+                    <li>The switch expression is evaluated once.</li>
+                    <li>The value of the expression is compared with the values of each case.</li>
+                    <li>If there is a match, the associated block of code is executed.</li>
+                    <li>If there is no match, the default code block is executed.</li>
+                </ul>
+            </div>
+            <div class="switch2">
+            </div>
+           </section>
+           <section class="containerjs3">
+            <div class="tricks1">
+              <h1>Arrays</h1>
+              <p>
+                JS arrays is a special variable, which can hold more than one value:</br>
+                <span>const cars = ["Saab", "Volvo", "BMW"];</span> </br>
+                An array can hold many values under a single name, and you can access the values
+                 by referring to an index number. Just remember that : Array indexes start with 0.</br>
+                 [0] is the first element. [1] is the second element.</p>
+                 <ul type="none">
+                <li> const cars = [ </li>
+                <li>"Saab",</li>
+                <li>"Volvo",</li>
+                <li>"BMW"</li>
+                <li>];</li>
+                <li>let car = cars[0];</li>
+            </ul>
+
+            </div>
+            <div class="tricks4">
+            <p>By using For Loops you can iterate through an JS Array: </p>
+            </div>
+            <div class="tricks3">
+                <h1> While Loop </h1>
+              <p>
+                Another possibility to iterate an array is using the while loop. </br>
+                The while loop loops through a block of code as long as a specified condition is true.</p>
+                 <ul type="none">
+                <li> const cars = ["BMW", "Volvo", "Saab", "Ford"]; </li>
+                <li>let i = 0;</li>
+                <li>let text = "";,</li>
+                <li>while (cars[i]) {</li>
+                <li>text += cars[i];</li>
+                <li> i++; }</li>
+            </div>
+           </section>
+           <section class="containerblocks">
+            <div class="blockodd">
+                <dl>
+                    <h2> Global Functions</h2>
+                    <dd>parseInt() - parses a string and returns an integer</dd>
+                    <dd>parseFloat() - returns floating point number of string</dd>
+                    <dd>isNaN() - is variable an illegal number</dd>
+                    <dd>isFinite() - is variable a finite, legal number</dd>
+                    <dd>String(23) -return string from number </dd>
+                   </dl>
+            </div>
+            <div class="blockeven">
+                <dl>
+                    <h2>Get Times </h2>
+                    <dd>getDate() - day as a number (1-31)</dd>
+                    <dd>getDay() -  weekday as a number (0-6)</dd>
+                    <dd>getFullYear() - four digit year (yyyy) </dd>
+                    <dd>getHours() - hour (0-23)</dd>
+                    <dd>getMilliseconds() - milliseconds (0-999)</dd>
+                   </dl>
+            </div>
+            <div class="blockodd">
+                <dl>
+                    <h2>Setting Part of a Date </h2>
+                    <dd>setDate() - day as a number (1-31)</dd>
+                    <dd>setFullYear() - year (optionally month and day)</dd>
+                    <dd>setHours - hour (0-23)</dd>
+                    <dd>setMilliseconds() - milliseconds (0-999)</dd>
+                    <dd>setMinutes(); - minutes (0-59)</dd>
+                   </dl>
+            </div>
+           </section>
+           <section>
+            <div class="fan">
+                <img id="fan2" src="fan.jpg" alt="" srcset="">
+                <h3> Click on the buttons and see what HTML,CSS combined with Javascript animations can do.</h3>
+                <button onclick="myFunOn()">ON</button>
+                <button onclick="myFunOff()">OFF</button>
+                <button onclick="myFun1()">1</button>
+                <button onclick="myFun2()">2</button>
+                <button onclick="myFun3()">3</button>
+            </div>
+           </section>
+        <footer>
+            <div class="foot">
+                <p>JavaScript CheatSheet By: Vinicius Schuchmann Saroli</p>
+            </div>
+           </footer>
+
+
+           <script src="script.js"></script>

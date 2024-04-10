@@ -1,0 +1,345 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.hd nav{
+   background-color: #080808;
+   display: flex;
+   justify-content: center;
+}
+.hd nav a {
+    font-size: 24px;
+    text-decoration: none;
+    color: red;
+    margin-left: 15px;
+    padding: 3px;
+}
+
+.hd nav a:hover {
+    color: blue;
+    cursor: pointer;
+}
+
+nav h4 {
+    padding: 3px;
+    margin-left: 15px;
+    color: darkorange;
+    font-size: 24px;
+}
+
+.javascript {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    background-color:#e8b143d7
+}
+.javascripttext1 {
+    position: absolute;
+    text-align: justify;
+    left: 320px;
+    width: 20%;
+    height: 300px;
+    top: 0px;
+
+}
+.javascripttext1 h2, .javascripttext2 h2 {
+    text-transform: uppercase;
+    color: #222733;
+    font-size: 22px;
+    text-align: center;
+}
+
+.javascripttext1 p, .javascripttext2 p{
+    color: #0f0d0dee;
+    font-size: 16px;
+    font-family:'Times New Roman', Times, serif;
+    margin: 0px 20px;
+}
+
+.javascripttext2 {
+    position: absolute;
+    text-align: justify;
+    left: 710px;
+    width: 20%;
+    height: 300px;
+    top: 0px;
+
+}
+
+.javascriptimage {
+    background-image: url(javascript2.webp);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    width: 30%;
+    height: 100%;
+    left: 0px;
+
+}
+.javascriptimage2 {
+    background-image: url(function.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    width: 30%;
+    height: 100%;
+    right: 0px;
+
+}
+
+.javascripttricks {
+    background-color: goldenrod;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 300px;
+}
+
+.tricks1 {
+background-color:#222733;
+color: #e6e1dee1;
+height: 300px;
+width: 35%;
+padding: 5px 10px;
+box-sizing: border-box;
+text-align: justify;
+}
+
+.tricks2 {
+background-color:#1254ef;
+height: 300px;
+width: 45%;
+padding: 5px 10px;
+box-sizing: border-box;
+text-align: justify;
+}
+.tricks2 h2 {
+    text-align: center;
+}
+
+.tricks3 {
+background-color:grey;
+color: #080808;
+height: 300px;
+display: flex;
+flex-direction: column;
+align-items: center;;
+width: 20%;
+padding: 5px 10px;
+box-sizing: border-box;
+}
+
+.tricks3 li {
+    color: lightblue;
+    line-height: 1.4;
+}
+
+.tricks3 button{
+  border-radius: 50%;;
+  background-color: #04AA6D;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+
+}
+.tricks3 button:hover {
+    cursor: pointer;
+    background-color: blue;
+
+}
+
+.containerjs2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 300px;
+    background-color: white;
+}
+
+.ifelse  {
+background-color: snow;
+height: 300px;
+width: 20%;
+padding: 5px 10px;
+box-sizing: border-box;
+text-align: justify;
+
+}
+.ifelse2 {
+    background-image: url(ifelse.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+    width: 30%;
+}
+.ifelse2 p, .tricks4 p {
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.switch {
+background-color: snow;
+height: 300px;
+width: 20%;
+padding: 5px 10px;
+box-sizing: border-box;
+text-align: justify;
+}
+.switch2 {
+background-image: url(switchcase.png);
+background-repeat: no-repeat;
+background-size: cover;
+height: 300px;
+width: 30%;
+}
+
+.containerjs3 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 300px;
+}
+
+.tricks4 {
+background-image: url(forlooping.png);
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+height: 300px;
+width: 45%;
+padding: 5px 10px;
+box-sizing: border-box;
+text-align: justify;
+}
+
+.tricks1 li, .tricks1 span {
+    color: lightblue;
+    line-height: 1.4;
+}
+
+
+
+
+.containercards {
+
+    display: flex;
+    justify-content: space-between;
+    background-color: #00ced1;
+}
+
+.cardeven {
+  border-left: 5px solid blue;
+  width: 40%;
+  height: 20%;
+}
+
+.cardodd {
+    border-left: 5px solid green;
+    width: 10%;
+    height: 20%;
+}
+
+
+.cardeven h2 {
+    border-radius: 40px;
+    color: darkolivegreen;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.cardodd h2 {
+    text-align: center;
+    border-radius: 40px;
+    color: #9400d3;
+    text-transform: uppercase;
+}
+
+.cardeven dd {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: justify;
+    margin-left: 5px;
+}
+
+.cardodd dd {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+.containerblocks{
+    height: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #303030;
+} 
+
+.blockeven h2, .blockodd h2 {
+    font-size: 25px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    color: red;
+    padding: 5px;
+    margin: 10px 10px;
+}
+
+
+.blockeven dd:nth-of-type(even), .blockodd dd:nth-of-type(even) {
+    background-color: white;
+    border: 1px solid black;
+    color: darkgray;
+
+}
+.blockeven dd:nth-of-type(odd), .blockodd dd:nth-of-type(odd) {
+    background-color: white;
+    border: 1px solid black;
+}
+.foot {
+    text-align: center;
+    color: red;
+    background-color: black;
+}
+
+.fan{
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     background-color: lightblue;
+}
+
+.fan img {
+animation: fananim linear infinite;
+border-radius: 100%;
+}
+
+.fan button {
+    cursor: pointer;
+    width: 100px;
+    height: 100px;
+    padding: 20px 30px;
+    margin: 0 20px;
+    font-size: 25px;
+    font-weight: 550;
+    border: none;
+    background-color: silver;
+    border-radius: 50%;
+    transition: 0.4s;
+}
+
+.fan button:nth-last-child(5) {
+    background-color: rgb(0,255,0);
+}
+.fan button:nth-last-child(4) {
+    background-color: red;
+}
+@keyframes fananim{
+    100% {
+        transform: rotate(360deg);
+    }
+}
